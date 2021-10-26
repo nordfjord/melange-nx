@@ -1,0 +1,20 @@
+{
+  "name": "melange-nx",
+  "dependencies": {
+    "ocaml": "4.12.x",
+    "melange": "melange-re/melange",
+    "@rescript/react": "*",
+    "@opam/ocaml-lsp-server": "*",
+    "@opam/ocamlformat": "*"
+  },
+  "esy": {
+    "buildsInSource": "unsafe",
+    "build": [
+      "ln -sfn #{melange.install} node_modules/bs-platform",
+      "bsb -make-world"
+    ]
+  },
+  "installConfig": {
+    "pnp": false
+  }
+}

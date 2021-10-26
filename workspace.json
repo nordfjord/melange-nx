@@ -1,7 +1,8 @@
 {
   "version": 2,
-  "projects": {},
-  "cli": {
-    "defaultCollection": "@nrwl/workspace"
+  "projects": {
+    "feature1": "libs/feature1",
+    "web": "apps/web",
+    "web-e2e": "apps/web-e2e"
   }
 }

@@ -37,3 +37,14 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+/_esy
+/_build
+/.merlin
+/.melange.eobjs
+**/.merlin
+**/.melange.eobjs
+
+/dune
+/dune.bsb
+/dune-project

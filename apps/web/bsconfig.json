@@ -1,0 +1,6 @@
+{
+  "name": "../apps/web",
+  "sources": [{ "dir": "src", "subdirs": true }],
+  "reason": { "react-jsx": 3 },
+  "bs-dependencies": ["@melange-nx/feature1", "@rescript/react"]
+}

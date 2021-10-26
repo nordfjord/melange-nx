@@ -14,7 +14,9 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@melange-nx/feature1": ["libs/feature1/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

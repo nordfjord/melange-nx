@@ -1,0 +1,29 @@
+{
+  "root": "libs/feature1",
+  "sourceRoot": "libs/feature1/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "esy @./libs/feature1/esy.json"
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/feature1/**/*.{ts,tsx,js,jsx}"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/feature1"],
+      "options": {
+        "jestConfig": "libs/feature1/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  }
+}

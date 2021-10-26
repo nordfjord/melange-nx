@@ -1,0 +1,12 @@
+{
+  "name": "@melange-nx/feature1",
+  "namespace": "Feature1",
+  "sources": [
+    {
+      "dir": "src",
+      "subdirs": true
+    }
+  ],
+  "reason": { "react-jsx": 3 },
+  "bs-dependencies": ["@rescript/react"]
+}

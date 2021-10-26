@@ -1,0 +1,13 @@
+{
+  "name": "melange-nx",
+  "sources": [],
+  "bs-dependencies": [
+    "../apps/web",
+    "@melange-nx/feature1"
+  ],
+  "package-specs": {
+    "suffix": ".bs.js",
+    "in-source": true,
+    "module": "es6"
+  }
+}
